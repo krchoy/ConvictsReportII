@@ -19,6 +19,7 @@ use Fisharebest\Webtrees\Module\ModuleReportTrait;
 /**
  * Class Convict2ReportModule
  */
+ 
 class ConvictsReportII extends AbstractModule implements  ModuleReportInterface, ModuleCustomInterface{
 	
 	use ModuleReportTrait;
