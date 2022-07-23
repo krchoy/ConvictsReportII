@@ -50,7 +50,7 @@ class ConvictsReportII extends AbstractModule implements  ModuleReportInterface,
     {
         // This text also appears in the .XML file - update both together
         /* I18N: Description of the “Convict2” module */
-        return I18N::translate('V2 report of the convict ancestors of an individual');
+        return I18N::translate('Report the convict ancestors of an individual based on OCCU tags with a value of "Convict"');
     }
 /**
      * Name of the XML report file, relative to the resources folder.
