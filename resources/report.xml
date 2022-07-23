@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Report>
-	<Title><var var="I18N::translate('Convicts')" /></Title>
+	<Title><var var="I18N::translate('Convicts II')" /></Title>
 	<Description><var var="I18N::translate('List of convict ancestors.')" /></Description>
 	<Input name="pid" lookup="INDI" type="text"><var var="I18N::translate('Enter Individual ID')" /></Input>
 	<Input name="relatives" type="select" options="direct-ancestors=>I18N::translate('Direct line ancestors')|ancestors=>I18N::translate('Direct line ancestors and their families')"><var var="I18N::translate('Choose relatives')" /></Input>
@@ -117,11 +117,11 @@
 			<Cell align="left" height="15" newline="1" style="label">
 				<br />
 				<if condition="$countConvicts=='0'">
-					<var var="I18N::translate('No convicts ancestors found from a total of ')" />
+					<var var="I18N::translate('No convicts found from a total of ')" />
 				</if>
 				<if condition="$countConvicts!='0'">
 					<var var="countConvicts" />
-					<var var="I18N::translate(' convicts ancestors found from a total of ')" />
+					<var var="I18N::translate(' convicts found from a total of ')" />
 				</if>
 				<ListTotal />
 				<var var="I18N::translate(' ancestors.')" />
